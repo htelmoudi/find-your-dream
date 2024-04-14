@@ -1,0 +1,122 @@
+.wrapper .card {
+    background-color: #000;
+}
+/* .wrapper .card img {
+    width: 100%;
+} */
+.wrapper {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-fluid {
+    max-width: 100%;
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+        align-items: flex-start;
+    }
+}
+
+
+::selection{
+    color: #fff;
+    background: #d43f8d;
+  }
+  .container{
+    width: 430px;
+    background: #fff;
+    /* text-align: center; */
+    border-radius: 5px;
+  }
+  .dots { 
+    margin-left: 6rem;
+    margin-top: 2rem;
+  }
+  .card-img img {
+    width: 100%;
+  }
+  .card-body h1 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+  }
+  .card-body span {
+    color: #00EF9E;
+  }
+  .card-body .card-text {
+    color: #EFEEEA;
+    font-size: 17px;
+  }
+  .container .form-outer{
+    width: 100%;
+    overflow: hidden;
+  }
+  .container .form-outer form{
+    display: flex;
+    width: 400%;
+  }
+  .form-outer form .page{
+    width: 25%;
+    transition: margin-left 0.3s ease-in-out;
+  }
+  
+  /* .form-outer form .page .field{
+    width: 330px;
+    height: 45px;
+    margin: 45px 0;
+    display: flex;
+    position: relative;
+  }
+  
+  form .page .field button{
+    width: 100%;
+    height: calc(100% + 5px);
+    border: none;
+    background: #d33f8d;
+    margin-top: -20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+  }
+  form .page .field button:hover{
+    background: #000;
+  } */
+  .frame1 {
+    background-color: transparent;
+    font-size: 23px;
+    color: #EFEEEA;
+  }
+  .frame1:focus {
+    box-shadow: none;
+  }
+  .page {
+    background-color: #000;
+  }
+  .frame1:hover {
+    background: #000;
+    color: #fff;
+  }
+  form .page .btns button{
+    margin-top: -20px!important;
+  }
+  form .page .btns button.prev{
+    margin-right: 3px;
+    font-size: 17px;
+  }
+  form .page .btns button.next{
+    margin-left: 3px;
+  }
+  
