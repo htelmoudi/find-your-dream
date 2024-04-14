@@ -20,3 +20,4 @@ npm run build
 npm run lint
 ```
 
+[Independent Coursework 2 FYD.pdf](https://github.com/htelmoudi/find-your-dream/files/14971568/Independent.Coursework.2.FYD.pdf)
